@@ -18,11 +18,11 @@ public:
     const NodeTree& AddNode(int number);
 
 
-    //считывание с клавиатуры
+    //СЃС‡РёС‚С‹РІР°РЅРёРµ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹
     const NodeTree& inputDataTree();
-    //считывание из файла
+    //СЃС‡РёС‚С‹РІР°РЅРёРµ РёР· С„Р°Р№Р»Р°
     const NodeTree& inputFileTree(std::string fileName = "bintree.txt");
-    //заполнение рандомом
+    //Р·Р°РїРѕР»РЅРµРЅРёРµ СЂР°РЅРґРѕРјРѕРј
     const NodeTree& randomTree(int size = 25);
 
     const NodeTree& PrintTree(int height=1);
